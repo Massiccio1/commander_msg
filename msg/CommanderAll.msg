@@ -25,4 +25,4 @@ int32 updown
 int32 gui
 
 int32 path_index
-float32[3] path_points
+#float32[3] path_points
