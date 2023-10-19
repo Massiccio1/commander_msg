@@ -2,23 +2,26 @@ uint64 timestamp
 
 bool ready
 
-bool routine
-bool path
-bool spin
-bool updown
+#check config.py for modes
+uint32 mode
 
-float32 radius
-float32 omega
+#bool routine
+#bool path
+#bool spin
+#bool updown
+#bool goto
 
-float32 spin_speed
-
-float32 height
-
-commander_msg/CommanderPathPoint[] points
-int8 path_index
-
+float32 param1
+float32 param2
+float32 param3
 
 float32[] fa1
 float32[] fa2
+float32[] fa2
+
+commander_msg/CommanderPathPoint[] points
+#int8 path_index
 
 bool b1
+bool b2
+bool b3
