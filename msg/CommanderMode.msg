@@ -13,6 +13,7 @@ bool ready
 # spin f1 = omega, f2 = height
 # updown no params
 # goto fa1 xyz, f1 yaw, f2 speed
+# landing fa1 xyz
 
 float32 f1
 float32 f2
